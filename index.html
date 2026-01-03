@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Shazma 🎂</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Landing Section -->
+  <section class="hero">
+    <h1 class="fade">Happy Birthday <span>Shazma</span> 🎉</h1>
+    <p id="typing"></p>
+
+    <button class="music-btn" onclick="playMusic()">Play Music 🎶</button>
+
+    <iframe id="mitwa"
+      src="https://www.youtube.com/embed/ru_5PA8cwkE"
+      allow="autoplay"
+      frameborder="0">
+    </iframe>
+  </section>
+
+  <!-- Message Section -->
+  <section class="message">
+    <h2>A Small Message</h2>
+    <p>
+      You bring calm, positivity and sincerity wherever you go.  
+      I hope this year gives you everything you quietly deserve.
+    </p>
+  </section>
+
+  <!-- Countdown -->
+  <section class="countdown">
+    <h2>🎂 10 January</h2>
+    <div id="timer"></div>
+  </section>
+
+  <!-- Final Card -->
+  <section class="final">
+    <h2>Smile Today 🙂</h2>
+    <button onclick="confetti()">🎉 Celebrate</button>
+  </section>
+
+  <canvas id="confetti"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
