@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #eef2f3, #d9e4f5);
+  color: #333;
+  text-align: center;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero span {
+  color: #4a6cf7;
+}
+
+.fade {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#typing {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.music-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #4a6cf7;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+iframe {
+  width: 0;
+  height: 0;
+}
+
+.message {
+  background: #ffffffaa;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.message p {
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.countdown #timer {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.final button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  background: #ff7a7a;
+  color: white;
+  cursor: pointer;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
